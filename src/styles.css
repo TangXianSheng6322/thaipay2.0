@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  --color-blueMain: #00809d;
+  --color-blueMainDark: #003851;
+  --color-blueMainMid: #004f6a;
+  --color-beigeMain: #fcecdd;
+  --color-orangeMain: #ff7601;
+  --color-orangeLight: #f3a26d;
+  --font-main: 'Roboto', 'sans-serif';
+  --breakpoint-xs: 22rem;
+  --breakpoint-pro: 26rem;
+}
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    @apply bg-neutral-100;
+  }
+  button {
+    @apply font-main cursor-pointer rounded-2xl border-2 px-5 py-1 text-sm/7 font-extralight md:text-base/7 lg:text-lg/7;
+  }
+  h1 {
+    @apply font-main text-center text-7xl font-black text-slate-900 md:text-8xl lg:text-9xl;
+  }
+  h2 {
+    @apply font-main text-5xl font-extrabold text-slate-900 md:text-6xl lg:text-7xl;
+  }
+  h3 {
+    @apply font-main text-2xl font-bold text-slate-900 md:text-3xl lg:text-4xl;
+  }
+  p {
+    @apply font-main text-sm/7 font-light text-slate-900 md:text-base/7 lg:text-lg/7;
+  }
+  a {
+    @apply font-main text-lg/7 font-light text-slate-900 md:text-xl/7 lg:text-2xl/7;
+  }
+}

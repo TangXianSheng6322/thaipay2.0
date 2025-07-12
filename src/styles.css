@@ -37,7 +37,10 @@
     @apply font-main text-2xl font-bold text-slate-900 md:text-3xl lg:text-4xl;
   }
   p {
-    @apply font-main text-sm/7 font-light text-slate-900 md:text-base/7 lg:text-lg/7;
+    @apply font-main pro:text-lg text-sm/7 font-light text-slate-900 md:text-xl lg:text-2xl xl:text-xl;
+  }
+  h5 {
+    @apply pro:text-xl md:text-3xl;
   }
   a {
     @apply font-main text-lg/7 font-light text-slate-900 md:text-xl/7 lg:text-2xl/7;

@@ -7,6 +7,7 @@ import { BenefitsComponent } from './benefits/benefits.component';
 import { StepsComponent } from './steps/steps.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { FinalComponent } from './final/final.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,7 @@ import { FinalComponent } from './final/final.component';
     StepsComponent,
     OurMissionComponent,
     FinalComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

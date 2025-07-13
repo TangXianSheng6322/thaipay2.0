@@ -1,0 +1,35 @@
+.title_text {
+  font-size: 2.5rem;
+  font-size: clamp(2.5rem, 2.25rem + 1.25vw, 3.75rem);
+}
+.title_card_big {
+  font-size: 5rem;
+  font-size: clamp(5rem, 4.4rem + 3vw, 8rem);
+}
+.title_card {
+  font-size: 1.75rem;
+  font-size: clamp(1.75rem, 1.65rem + 0.5vw, 2.25rem);
+}
+
+.grap_clip {
+  clip-path: polygon(
+    36% 51%,
+    55% 54%,
+    65% 35%,
+    85% 39%,
+    100% 18%,
+    100% 100%,
+    0 100%,
+    0 86%,
+    18% 76%,
+    25% 59%
+  );
+}
+.graph_numbers {
+  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.525rem + 1.125vw, 1.875rem);
+}
+.graph_title_text {
+  font-size: 0.6rem;
+  font-size: clamp(0.6rem, 0.495rem + 0.525vw, 1.125rem);
+}

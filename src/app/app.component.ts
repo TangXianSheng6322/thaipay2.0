@@ -6,6 +6,7 @@ import { Hero2Component } from './hero2/hero2.component';
 import { BenefitsComponent } from './benefits/benefits.component';
 import { StepsComponent } from './steps/steps.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
+import { FinalComponent } from './final/final.component';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { OurMissionComponent } from './our-mission/our-mission.component';
     BenefitsComponent,
     StepsComponent,
     OurMissionComponent,
+    FinalComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

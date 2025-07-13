@@ -4,6 +4,7 @@ import { HeroComponent } from './hero/hero.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { Hero2Component } from './hero2/hero2.component';
 import { BenefitsComponent } from './benefits/benefits.component';
+import { StepsComponent } from './steps/steps.component';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ import { BenefitsComponent } from './benefits/benefits.component';
     NavbarComponent,
     Hero2Component,
     BenefitsComponent,
+    StepsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
